@@ -59,13 +59,11 @@ try:
     import pytesseract
 except ImportError:
     pytesseract = None
-
-import os
-from dotenv import load_dotenv
-
+# To set environment variable for Groq-Key, 
+#import os from dotenv import load_dotenv
 # Load Gorq Key from .env file as variable.
+#load_dotenv()
 
-load_dotenv()
 # Get Groq API key
 # GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 #print("API key loaded:", GROQ_API_KEY is not None)
