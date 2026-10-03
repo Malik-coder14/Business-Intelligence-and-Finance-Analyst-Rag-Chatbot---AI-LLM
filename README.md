@@ -33,6 +33,13 @@ In the left sidebar:
 - Set Top-K
 - Set temperature
 
+- We can set default Groq Api key, by creating .env file in project,
+- Then paste this ....  GROQ_API_KEY = " Your Groq Api Key"
+- Save .env file ,
+
+- In Business_Analyst.py file add following after imports
+- 
+
 ## 5. Recommended company files
 
 Upload a mixture such as:
