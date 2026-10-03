@@ -37,8 +37,12 @@ In the left sidebar:
 - Then paste this ....  GROQ_API_KEY = " Your Groq Api Key"
 - Save .env file ,
 
-- In Business_Analyst.py file add following after imports
-- 
+- Then lastly , In Business_Analyst.py file add following after imports
+- # To set environment variable for Groq-Key, 
+- import os from dotenv import load_dotenv
+- Load Gorq Key from .env file as variable.
+- load_dotenv()
+
 
 ## 5. Recommended company files
 
